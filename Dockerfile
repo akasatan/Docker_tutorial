@@ -1,5 +1,5 @@
 # Dockerのイメージにあるruby3.0を使っていく
-FROM ruby:3.0
+FROM ruby:2.7
 
 RUN mkdir /var/www
 COPY main.rb /var/www
